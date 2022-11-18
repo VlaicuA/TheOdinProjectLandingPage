@@ -4,12 +4,16 @@ body {
     height: 100vh;
 }
 
+/* Heather section */
+
 .header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: #1f2937;
     color: white;
+    padding-bottom: 50px;
+    gap: 140px;
 }
 .headerlogo {
     font-weight: bold;
@@ -29,3 +33,73 @@ a:hover {
     color:lightcoral;
 }
 
+/* About section */
+
+.about {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 500px;
+}
+
+.abouthead {
+    height: 300px;
+    width: 400px;
+}
+
+.aboutsecond {
+    height: 250px;
+    width: 400px;
+    background-color: grey;
+}
+
+.aboutbutton {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 4px;
+    border: none;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+}
+
+/* Information */
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Sub Information */
+
+.subinformation {
+    display: flex;
+height: 400px;
+}
+
+.subinformationdiv {
+    height: 100px;
+    width: 100px;
+    border:1px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
+
+.subinformationcontainer {
+    display: flex;
+    
+}
+
+.subinfoirmationdivtext {
+    position: relative;
+    font-size: 10px;
+    background-color: aqua;
+}
