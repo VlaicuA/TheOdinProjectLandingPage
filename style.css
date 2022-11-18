@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: white;
+}
+.headerlogo {
+    font-weight: bold;
+}
+
+.headerlinks {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color:lightcoral;
+}
+
