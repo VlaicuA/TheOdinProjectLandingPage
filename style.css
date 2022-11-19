@@ -9,7 +9,7 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color: #1f2937;
     color: white;
     padding-bottom: 50px;
@@ -41,7 +41,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 500px;
+    gap: 300px;
 }
 
 .abouthead {
@@ -81,25 +81,34 @@ a:hover {
 
 .subinformation {
     display: flex;
-height: 400px;
+height: 120px;
+padding-bottom: 50px;
+gap: 80px;
+justify-content: center;
 }
 
 .subinformationdiv {
     height: 100px;
     width: 100px;
-    border:1px;
+    border:2px;
     border-style: solid;
     border-color: #3882f6;
     border-radius: 8px;
 }
-
-.subinformationcontainer {
+.subinformationtext {
     display: flex;
+    flex-wrap: wrap;
+    width: 100px;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Section quote */
+
+.quote {
     
 }
 
-.subinfoirmationdivtext {
-    position: relative;
-    font-size: 10px;
-    background-color: aqua;
+.quotetext {
+
 }
