@@ -9,20 +9,23 @@ body {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: #1f2937;
     color: white;
     padding-bottom: 50px;
-    gap: 140px;
+    gap: 530px;
+
 }
 .headerlogo {
     font-weight: bold;
+    display: flex;
 }
 
 .headerlinks {
     display: flex;
     gap: 8px;
     list-style: none;
+    flex-shrink: 0;
 }
 
 a:link {
@@ -50,9 +53,12 @@ a:hover {
 }
 
 .aboutsecond {
+    display: flex;
     height: 250px;
     width: 400px;
     background-color: grey;
+    align-items: center;
+    justify-content: center;
 }
 
 .aboutbutton {
@@ -75,6 +81,8 @@ a:hover {
     padding-bottom: 20px;
     font-weight: bold;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Sub Information */
@@ -85,6 +93,7 @@ height: 120px;
 padding-bottom: 50px;
 gap: 80px;
 justify-content: center;
+margin-bottom: 50px;
 }
 
 .subinformationdiv {
@@ -132,8 +141,10 @@ justify-content: center;
 
 .actioncall {
     background-color: #3882f6;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 150px;
+    margin-right: 150px;
     border:2px;
     border-style: none;
     color: white;
@@ -165,4 +176,19 @@ justify-content: center;
     height: 25px;
     font-size: 15px;
     color: white;
+}
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1f2937;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
 }
