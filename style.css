@@ -106,9 +106,63 @@ justify-content: center;
 /* Section quote */
 
 .quote {
-    
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .quotetext {
+    font-size: 20px;
+    font-style: italic ;
+    font-weight: lighter;
+    color: #1f2937;
+    padding-bottom: 5px;
+}
 
+.quotesign {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
+/* Action Call section */
+
+.actioncall {
+    background-color: #3882f6;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border:2px;
+    border-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    align-items: center;
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.actioncallhead {
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.actioncall > div > p {
+   margin: 0px;
+}
+
+.actioncall > button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    border-style: solid;
+
+    border-color: white;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    color: white;
 }
